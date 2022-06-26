@@ -16,11 +16,11 @@ int main(){
     		for(int i=0; i<s.size(); i++)
     		{
     			a[s[i]-97]++;
-			}
-			for(int i=0; i<26; i++)
-				if(a[i]==0) count++;
-			if(count>k) cout << 0;
-			else cout << 1;
+		}
+		for(int i=0; i<26; i++)
+			if(a[i]==0) count++;
+		if(count>k) cout << 0;
+		else cout << 1;
 		}
 		
     	cout << endl;
